@@ -1,4 +1,4 @@
-package com.br.HackerRank.JavaEOF;
+package com.br.HackerRank.java.easy.JavaEOF;
 
 import java.util.Scanner;
 
