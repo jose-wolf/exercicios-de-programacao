@@ -12,12 +12,12 @@ public class Teste {
 
         System.out.println();
 
-//        System.out.println(calculatorConundrum.calculate(10,1,null));
-//        System.out.println(calculatorConundrum.calculate(10,1,""));
+        System.out.println(calculatorConundrum.calculate(10,1,null));
+        System.out.println(calculatorConundrum.calculate(10,1,""));
         System.out.println(calculatorConundrum.calculate(10,1,"-"));
 
         System.out.println();
-//        System.out.println(calculatorConundrum.calculate(33,0,"/"));
+        System.out.println(calculatorConundrum.calculate(33,0,"/"));
     }
 
 }
