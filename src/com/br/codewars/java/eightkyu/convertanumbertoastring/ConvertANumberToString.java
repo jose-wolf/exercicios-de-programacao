@@ -9,14 +9,9 @@ public class ConvertANumberToString {
         int numero2 = 123;
         int numero3 = 999;
 
-        if (numberToString(numero).equals("67"))
-            System.out.println("Convertido");
-
-        if ("123".equals(numberToString(123)))
-            System.out.println("Convertido");
-
-        if ("999".equals(numberToString(999)))
-            System.out.println("Convertido");
+        numberToString(numero);
+        numberToString(numero2);
+        numberToString(numero3);
 
     }
 
