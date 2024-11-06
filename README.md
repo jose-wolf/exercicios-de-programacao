@@ -5,7 +5,7 @@ Repositório criado com o objetivo de resolver desafios em sites como hackerRank
 ## Link dos sites
 
 * [HackerRank](https://www.hackerrank.com/) 
-* [Codewars](https://www.codewars.com/)
+* [Codewars](https://www.codewars.com/) - Atualmente focando no codewars.
 * [Beecrowd](https://beecrowd.com/) 
 * [Exercism](https://exercism.org/) 
 
