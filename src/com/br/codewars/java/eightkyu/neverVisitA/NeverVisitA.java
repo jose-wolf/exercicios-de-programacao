@@ -7,10 +7,19 @@ import java.util.Map;
 public class NeverVisitA {
 
     public static void main(String[] args) {
-
+        System.out.println(subtractSum(10));
     }
 
-    
+    public static String subtractSum(int n){
+        Map<Integer,String> frutas = listaFrutas();
+
+        int subtraction = sumOfDigits(n);
+        while (!frutas.containsKey(subtraction)){
+            n = subtraction;
+            subtraction = sumOfDigits(n);
+        }
+        return frutas.get(subtraction);
+    }
 
     public static int sumOfDigits (int n){
 
