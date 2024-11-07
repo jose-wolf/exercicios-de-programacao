@@ -27,7 +27,7 @@ public class Anagrams {
         Arrays.sort(aArray);
         Arrays.sort(bArray);
         String aSorted = new String(aArray);
-        String bSorted = new String(bArray);
+            String bSorted = new String(bArray);
 
         return aSorted.equals(bSorted);
     }
