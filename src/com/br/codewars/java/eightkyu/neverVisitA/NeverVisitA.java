@@ -10,6 +10,23 @@ public class NeverVisitA {
 
     }
 
+    
+
+    public static int sumOfDigits (int n){
+
+        int sum = 0;
+        int sub = 0;
+        String numeroString = String.valueOf(n);
+        char[] digitos = numeroString.toCharArray();
+        for (char digito : digitos){
+            sum += Character.getNumericValue(digito);
+        }
+        sub = sum;
+
+        int subtraction = n - sub;
+        return subtraction;
+    }
+
     public static Map<Integer,String> listaFrutas(){
         HashMap<Integer,String> frutas = new HashMap<>();
 
