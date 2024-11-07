@@ -8,7 +8,6 @@ public class NeverVisitA {
 
     public static void main(String[] args) {
 
-        System.out.println(subtractSum(10));
     }
 
     public static Map<Integer,String> listaFrutas(){
