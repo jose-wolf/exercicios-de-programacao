@@ -8,10 +8,21 @@ public class MixedSum {
 
     public static void main(String[] args) {
 
-        List list = Arrays.asList(5,"5", "7");
+        List list = Arrays.asList("5", "0", 9, 3, 2, 1, "9", 6, 7);
 
-        System.out.println(convertStringInNumber(list));
+        System.out.println(sum(list));
 
+    }
+
+    public static int sum(List<?> mixed) {
+        int sum = 0;
+        List<Integer> numbers = convertStringInNumber(mixed);
+        for (Integer number : numbers){
+
+            sum += number;
+
+        }
+        return sum;
     }
 
     public static List<Integer> convertStringInNumber(List<?> mixed){
