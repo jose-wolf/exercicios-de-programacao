@@ -12,9 +12,22 @@ public class Kata {
 
         System.out.println(Arrays.toString(soamrNegativos(input)));
         System.out.println(Arrays.toString(soamrNegativos(input2)));
+        System.out.println(Arrays.toString(contarPositivos(input)));
+        System.out.println(Arrays.toString(contarPositivos(input2)));
 
     }
 
+    public static int[] contarPositivos(int[] input){
+        int positivo = 0;
+        for(int elemento : input){
+            if (elemento > 0){
+                positivo++;
+            }
+        }
+        int[] resultado = new int[1];
+        resultado[0] = positivo;
+        return resultado;
+    }
 
 
     public static int[] soamrNegativos(int[] input){
