@@ -17,6 +17,10 @@ public class Kata {
     }
 
     public static int[] countPositivesSumNegatives(int[] input) {
+        if (input == null || input.length == 0) {
+            return new int[0];
+        }
+
         List<Integer> lista = new ArrayList<>(input.length);
         int[] resultado = new int[2];
 
@@ -28,6 +32,8 @@ public class Kata {
         }
         resultado[0] = contarPositivos(input);
         resultado[1] = soamrNegativos(input);
+
+
 
         return resultado;
     }
