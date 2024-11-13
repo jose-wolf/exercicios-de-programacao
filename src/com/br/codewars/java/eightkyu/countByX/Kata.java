@@ -1,8 +1,6 @@
 package com.br.codewars.java.eightkyu.countByX;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Kata {
 
