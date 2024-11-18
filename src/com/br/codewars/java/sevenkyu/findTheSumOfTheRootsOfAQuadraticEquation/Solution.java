@@ -42,5 +42,10 @@ public class Solution {
         }
     }
 
-    
+    public static double bhaskara(double a,double b, double c){
+        double x1 = (-b + Math.sqrt(49)) / (2 * a);
+        double x2 = (-b - Math.sqrt(49)) / (2 * a);
+
+        return x1 + x2;
+    }
 }
