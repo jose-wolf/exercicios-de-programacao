@@ -14,7 +14,18 @@ public class DuplicateEnconder {
         System.out.println(encode("Prespecialized"));
     }
 
-    
+    public static String encode(String word){
+        StringBuilder resultado = new StringBuilder();
+        word = word.toLowerCase();
+        for (char caractere : word.toCharArray()){
+            if (contarCaracteres(word).containsKey(caractere) && contarCaracteres(word).get(caractere) == 1){
+                resultado.append("(");
+            } else if (contarCaracteres(word).containsKey(caractere) && contarCaracteres(word).get(caractere) >= 2) {
+                resultado.append(")");
+            }
+        }
+        return resultado.toString();
+    }
 
     public static Map<Character, Integer> contarCaracteres(String texto) {
         Map<Character, Integer> contagemCaracteres = new HashMap<>();
