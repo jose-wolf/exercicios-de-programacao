@@ -29,7 +29,7 @@ public class Kata {
             if(lista instanceof  Integer){
                 Integer number = (Integer) lista;
 
-                if(number > 0) result.add(lista);
+                if(number >= 0) result.add(lista);
             }
         }
         return result;
