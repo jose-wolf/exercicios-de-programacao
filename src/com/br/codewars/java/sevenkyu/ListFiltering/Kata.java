@@ -11,6 +11,7 @@ public class Kata {
         list.add(1);
         list.add(2);
         list.add(2.5);
+        list.add(-2.5);
         list.add(2.1324);
         list.add("adsa");
         list.add("312");
@@ -26,7 +27,9 @@ public class Kata {
 
         for(Object lista : list){
             if(lista instanceof  Integer){
-                result.add(lista);
+                Integer number = (Integer) lista;
+
+                if(number > 0) result.add(lista);
             }
         }
         return result;
