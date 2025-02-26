@@ -12,9 +12,11 @@ public class Solution {
             String pattern = in.nextLine();
             try{
                 Pattern.compile(pattern);
-                System.out.println("valid");
+                System.out.println("Valid");
             }catch (PatternSyntaxException e){
-                System.out.println("invalid");
+                System.out.println("I" +
+                        "" +
+                        "nvalid");
             }
             testCases--;
         }
