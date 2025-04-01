@@ -9,7 +9,6 @@ public class Solution {
 
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        scanner.nextLine();
 
         List<Integer> list = new ArrayList<>();
 
@@ -17,10 +16,8 @@ public class Solution {
             int number = scanner.nextInt();
             list.add(number);
         }
-        scanner.nextLine();
 
         int q = scanner.nextInt();
-        scanner.nextLine();
 
         for (int i = 0; i < q; i++) {
             String query = scanner.next();
@@ -29,7 +26,6 @@ public class Solution {
                 int index = scanner.nextInt();
                 int value = scanner.nextInt();
                 addNumber(list,index, value);
-                scanner.nextLine();
             } else if (query.equals("Delete")) {
                 int index = scanner.nextInt();
                 deleteNumber(list,index);
