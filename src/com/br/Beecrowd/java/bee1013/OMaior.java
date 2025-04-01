@@ -1,4 +1,4 @@
-package com.br.Beecrowd.java.easy.bee1013;
+package com.br.Beecrowd.java.bee1013;
 
 import java.util.Arrays;
 import java.util.Collections;

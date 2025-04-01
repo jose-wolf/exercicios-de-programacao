@@ -1,4 +1,4 @@
-package com.br.Beecrowd.java.easy.bee1016;
+package com.br.Beecrowd.java.bee1016;
 
 import java.util.Scanner;
 

@@ -7,6 +7,16 @@ public class RemoverChars {
         String caractere2 = "place";
         System.out.println(remove(caractere));
         System.out.println(remove(caractere2));
+
+        int i = 0;
+
+        do {
+
+            System.out.println(i);
+
+            i++;
+
+        } while (i < 3);
     }
 
     public static String remove(String str) {

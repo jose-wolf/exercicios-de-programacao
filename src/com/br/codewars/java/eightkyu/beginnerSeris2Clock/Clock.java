@@ -15,4 +15,6 @@ public class Clock {
         Integer resultado = (int) tempoEmMilles;
         return resultado;
     }
+
+
 }

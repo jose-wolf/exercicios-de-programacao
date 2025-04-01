@@ -1,37 +1,31 @@
-package com.br.Beecrowd.java.String.bee1278;
+package com.br.Beecrowd.java.String.bee2157;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
 
-        while (true){
-            int n = input.nextInt();
-            input.nextLine();
+        int testes = input.nextInt();
 
-            if(n == 0) break;
+        int entrada = input.nextInt();
+        int parada = input.nextInt();
 
-            ArrayList<String> textos = new ArrayList<>();
+       // for(int i = 0; i < testes; i++){
 
-            int maiorPalavra = 0;
-            for(int i = 0; i < n;i++){
-                String linha = input.nextLine().trim();
-                textos.add(linha);
-                String[] palavras = linha.split("\\s");
-                for (String palavra: palavras){
-                    maiorPalavra = Math.max(maiorPalavra, palavra.length());
-                }
+
+            for(int j = entrada; j <= parada; j++){
+                System.out.print(j);
             }
 
-            for (String linha : textos){
-                System.out.println(String.format("%" + maiorPalavra + "s", linha));
+            for(int j = parada -1 ; j >= parada; j--){
+                System.out.print(j);
             }
-            System.out.println();
-        }
+        System.out.println();
+        //}
+
+
     }
-
-
 }
